@@ -1,0 +1,11 @@
+##수업중
+$ a^5 + b = $
+
+$ 안에건 수식
+🔥
+
+import pandas as pd
+
+#Read a csv file
+df = pd.read_csv('sample_data/california_housing_train.csv')
+df.head()
