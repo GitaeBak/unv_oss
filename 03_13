@@ -9,3 +9,8 @@ import pandas as pd
 #Read a csv file
 df = pd.read_csv('sample_data/california_housing_train.csv')
 df.head()
+
+#VScode_23
+import numpy as np
+
+
