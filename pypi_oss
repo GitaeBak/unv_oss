@@ -1,1 +1,21 @@
+from setuptools import setup, find_packages
 
+
+#https://pypi.org/help/#invalid-auth
+#pypi-AgEIcHlwaS5vcmcCJDRlYzZhOWU3LTZhOWQtNDk2NS05NTY0LTU4OTNkZTA0ODE5ZQACKlszLCIxNGIwMDY1OS1lYzIzLTQ2ZmEtOTI1OS01MjMwNDFmMWFlYjkiXQAABiB6lwDDvR4DrQqzN3JdL7qZN9X-OnqAgDbkAwXa7jWPVw
+#api 토큰
+
+
+setup(
+    name='mycalc_gi',
+    version='0.0.1',
+    description='nice calculator',
+    author='gitaebak',
+    url = 'https://github.com/GitaeBak/unv_oss',
+    download_url = "https://github.com/GitaeBak/unv_oss",
+    install_requires=["numpy"],
+    package=["mycalc"],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+    ],
+)
